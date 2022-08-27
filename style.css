@@ -1,0 +1,117 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1{
+    color: rgb(188, 188, 221) ;
+    font-weight: 900;
+    font-size: 40px;
+}
+.header{
+    position: relative;
+    text-align: center;
+    color: white ;
+}
+.donate-btn{
+    color: white;
+    background-color: orangered;
+    border: none;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+}
+.text-centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.donate-money{
+    margin-top: 100px;
+    color: cadetblue;
+    text-align: center;
+}
+.headline{
+    color: black;
+}
+h3{
+    display: inline;
+    background-color: cornsilk;
+    padding: 30px 25px;
+}
+.minimum-money{
+    border: 1px solid olivedrab;
+    color: olivedrab;
+}
+.money-box{
+    margin-top: 50px;
+}
+form{
+    margin-top: 80px;
+    text-align: center;
+}
+.other-amount{
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid rgb(255, 137, 101) ;
+}
+::placeholder{
+    text-align: center;
+    size: 25px;
+    font-size: medium;
+}
+#money-use{
+    color: cadetblue;
+}
+.plan{
+    margin-top: 100px;
+    text-align: center;
+}
+.card{
+    box-shadow: 0 8px 16px 0 rgb(26, 68, 68) ;
+    transition: 0.3s;
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+}
+.container{
+    padding: 2px 16px;
+}
+.card-para{
+    color: cadetblue;
+}
+section{
+    display: flex;
+    margin-top: 100px;
+}
+.half-width{
+    width: 50%;
+    padding: 50px;
+}
+.half-width img{
+    margin-top: 50px;
+    width: 90%;
+}
+.updates{
+    margin-top: 100px;
+    text-align: center;
+}
+.subscriber{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 40px;
+    margin: 15%;
+}
+#email{
+    border: 2px solid red;
+    padding: 8px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+}
+.fancy-footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
